@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 
-driver = webdriver.Edge(executable_path= "C:\\Program Files\\msedgedriver.exe" , log_path= 'NUL')
+driver = webdriver.Edge(executable_path= "enter the webdriver path" , log_path= 'NUL')
 driver.get("http://exam.msrit.edu/index.php")
 
 cap = input("enter the captcha \n")
